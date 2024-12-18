@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivia Battle Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="main-container">
+    <h1 id="heading">Trivia Battle game</h1>
+    <form class="player-info">
+      <input type="text" id="player1" placeholder="Enter player 1 name" required>
+      <input type="text" id="player2" placeholder="Enter player 2 name" required>
+      <button type="submit" id="start-game">Start Game</button>
+    </form>
+   
+    
+  <div id="category-info" style="display:none;">
+<h2>Select A Category</h2>
+
+<select id="categories">
+  <option value="disable category">choose a category</option>
+  <option value="general_knowleadge">General Knowleadge</option>
+  <option value="geography">geography</option>
+  <option value="science">Science</option>
+  <option value="society_and_culture">society_and_culture</option>
+  <option value="film_and_tv">Film and TV</option>
+  <option value="food_and_drink">Food and Drink</option>
+  <option value="arts_and_culture">Art and Culture</option>
+  <option value="history">History</option>
+</select>
+
+  </div>
+<div id="question-container"></div>
+
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
